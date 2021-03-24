@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'home';
+@import 'menu';
+@import 'pie';
+@import 'pag';
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color13;
+}
+
+#particle-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+/*C:\xampp\htdocs\SistemasWEB\proyecto\raw*/

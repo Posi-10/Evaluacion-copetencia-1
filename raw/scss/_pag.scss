@@ -1,0 +1,62 @@
+h3 {
+    color: $color1;
+    font-size: 115px;
+    font-style: bold;
+}
+
+h2 {
+    font-size: 35px;
+    color: $color15;
+    span {
+        font-size: 65px;
+        color: $color1;
+    }
+}
+
+h4 {
+    font-size: 17px;
+    color: $color1;
+}
+
+hr {
+    background-color: $color15;
+    color: $color15;
+    border-color: $color15;
+}
+
+a {
+    &.cadena {
+        color: $color15;
+        font-size: 23px;
+        &:hover {
+            color: $color15;
+        }
+    }
+}
+
+ul {
+    li {
+        list-style: none;
+        a {
+            &.cadena {
+                font-size: 15px;
+                color: $color5;
+                &:hover {
+                    color: $color6;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+p {
+    &.pag {
+        font-size: 22.5px;
+        color: $color15;
+    }
+    &.cadena {
+        color: $color15;
+        font-size: 20px;
+    }
+}

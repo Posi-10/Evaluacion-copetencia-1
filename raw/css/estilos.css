@@ -1,0 +1,220 @@
+h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: "Arial";
+}
+h1 span {
+  color: #F20A72;
+  font-size: 88px;
+}
+
+.container,
+.row,
+.col {
+  z-index: 1;
+}
+
+.redes-home {
+  font-size: 24px;
+  letter-spacing: 13.3333333333px;
+  color: #E6DB74;
+}
+.redes-home:hover {
+  color: #EEE69E;
+}
+
+header {
+  color: #FFFFFF;
+  position: fixed;
+  width: 80%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+header .btn-menu {
+  font-size: 35px;
+  cursor: pointer;
+}
+header .btn-duda {
+  font-size: 35px;
+  cursor: pointer;
+}
+header .btn-duda a h1 {
+  color: #F20A72;
+  font-family: Arial;
+}
+header .btn-duda a:hover {
+  text-decoration: none;
+}
+
+.seccion {
+  height: 100%;
+}
+.seccion .cuerpo {
+  height: 100%;
+  display: flex;
+}
+
+.full-menu {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #20252C;
+  transition: 0.2s;
+}
+.full-menu nav {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.full-menu nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.full-menu nav ul li {
+  text-decoration: none;
+}
+.full-menu nav ul li.rosa {
+  color: #F20A72;
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+}
+.full-menu nav ul li.rosa a {
+  text-decoration: none;
+  color: #F20A72;
+}
+.full-menu nav ul li.rosa p {
+  font-size: 15px;
+}
+.full-menu nav ul li.amarrillo {
+  color: #E6DB74;
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: #1C2127;
+}
+.full-menu nav ul li.amarrillo a {
+  text-decoration: none;
+  color: #E6DB74;
+}
+.full-menu nav ul li.amarrillo p {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #1C2127;
+  width: 100%;
+  height: auto;
+}
+footer h1 {
+  font-size: 30px;
+  color: #F20A72;
+}
+footer h1 span {
+  font-size: 30px;
+  color: #F20A72;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer ul li a:hover {
+  color: #FFFFFF;
+}
+footer a {
+  font-size: 18px;
+}
+footer p {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+footer span {
+  font-size: 15px;
+  color: #F20A72;
+}
+
+h3 {
+  color: #F20A72;
+  font-size: 115px;
+  font-style: bold;
+}
+
+h2 {
+  font-size: 35px;
+  color: #FFFFFF;
+}
+h2 span {
+  font-size: 65px;
+  color: #F20A72;
+}
+
+h4 {
+  font-size: 17px;
+  color: #F20A72;
+}
+
+hr {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+a.cadena {
+  color: #FFFFFF;
+  font-size: 23px;
+}
+a.cadena:hover {
+  color: #FFFFFF;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a.cadena {
+  font-size: 15px;
+  color: #E6DB74;
+}
+ul li a.cadena:hover {
+  color: #CAC166;
+  text-decoration: none;
+}
+
+p.pag {
+  font-size: 22.5px;
+  color: #FFFFFF;
+}
+p.cadena {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #363B41;
+}
+
+#particle-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/*C:\xampp\htdocs\SistemasWEB\proyecto\raw*/
+
+/*# sourceMappingURL=estilos.css.map */

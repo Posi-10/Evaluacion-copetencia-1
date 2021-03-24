@@ -1,0 +1,24 @@
+h1 {
+    color: $color15;
+    font-size: $h1;
+    font-family: 'Arial';
+    span {
+        color: $color1;
+        font-size: $h1*2.2;
+    }
+}
+
+.container,
+.row,
+.col {
+    z-index: 1;
+}
+
+.redes-home {
+    font-size: $h1*.6;
+    letter-spacing: $h1/3;
+    color: $color5;
+    &:hover {
+        color: $color7;
+    }
+}
